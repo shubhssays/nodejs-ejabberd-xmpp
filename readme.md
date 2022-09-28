@@ -2,7 +2,7 @@
 
 docker run --name ejabberd -p 5222:5222 ejabberd/ecs
 
-2. creating 2 users i.e. shubhs and admin
+2. open new terminal or command prompt (keep the privious one running). creating 2 users i.e. shubhs and admin
 
 docker exec -it ejabberd bin/ejabberdctl register admin localhost pass@123
 
